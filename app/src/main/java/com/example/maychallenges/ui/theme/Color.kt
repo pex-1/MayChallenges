@@ -10,3 +10,5 @@ val Success = Color(0xFF0FA171)
 val Outline = Color(0xFFDFDDDA)
 val Primary = Color(0xFFDE8A44)
 val OnPrimary = Color(0xFFFFFFFF)
+
+val ErrorContainter = Color(0xFFFEF2F2)

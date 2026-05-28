@@ -4,8 +4,10 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import com.example.maychallenges.ui.fightforcontrol.GalleryScreen
+import com.example.maychallenges.ui.smoothinputflow.CreateAccountScreen
 import com.example.maychallenges.ui.theme.MayChallengesTheme
-import com.example.maychallenges.ui.oneshotaction.OrderSummaryScreen
+import com.example.maychallenges.ui.undostack.NotesScreen
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -13,7 +15,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             MayChallengesTheme {
-                OrderSummaryScreen()
+                GalleryScreen()
             }
         }
     }
