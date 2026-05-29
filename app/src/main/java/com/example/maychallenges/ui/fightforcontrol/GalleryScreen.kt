@@ -73,7 +73,7 @@ import com.example.minichallenges.challenges.fightforcontrol.GalleryViewModel
 
 enum class SheetAnchor { COLLAPSED, HALF, FULL }
 
-private val PeekHeight = 100.dp   // collapsed: pill + "Swipe up to explore"
+private val PeekHeight = 100.dp
 private val HalfFraction = 0.52f
 
 // ── Entry point ───────────────────────────────────────────────────────────────
